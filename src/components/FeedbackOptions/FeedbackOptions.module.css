@@ -1,0 +1,28 @@
+.btnList {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.bthItem:not(:last-child) {
+    margin-right: 40px;
+}
+
+.btn {
+    display: block;
+    width: 100px;
+    height: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #e5b6bc;
+    cursor: pointer;
+    background-color: #9e6079;
+    border-radius: 15px;
+    border-color: #9e6079;
+    border-style: solid;
+    box-shadow: 3px 3px 3px #846a87;
+}
+
+.btn:hover{
+    box-shadow: 10px 5px 5px #452f48;
+}
